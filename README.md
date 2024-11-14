@@ -10,4 +10,4 @@ Nem feltétlen azokat a dolgokat használtuk, amik a projektleírásban szerepel
 
 - *GitLab* helyett **GitHub**-ot használtunk
 - *Trello* helyett **GitHub projects-et és issue-kat** használtunk
-- Figma link: 
+- Figma link: <https://www.figma.com/design/6Mc0P47R7MeJ821wcL2pCC/Weboldal?t=rVooXwm33Mj8gMC5-1>
