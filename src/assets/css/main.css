@@ -36,6 +36,6 @@ main {
     margin-bottom: 40px;
     margin-left: 220px;
     margin-right: 220px;
-    background-color: rgb(219, 219, 219);
+    background-color: rgba(219, 219, 219, 0.8);
     border-radius: 15px;
 }
