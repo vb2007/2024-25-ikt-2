@@ -1,7 +1,7 @@
 nav {
     position: sticky;
     top: 0;
-    background-color: #00ff80;
+    background-color: rgba(219, 219, 219, 0.8);
     box-shadow: 0 2px 10px rgb(253, 251, 251);
     z-index: 1000;
     margin: 0 220px;
