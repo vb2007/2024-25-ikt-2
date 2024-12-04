@@ -35,13 +35,27 @@ main {
     color: black;
 }
 
+.preview--paragraph {
+    font-size: 1rem;
+}
+
+.preview--line {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgb(45, 104, 231);
+    width: 95%;
+    border: 3px solid rgb(26, 72, 170);
+    border-radius: 5px;
+}
+
 .main--content {
-    display: flex;
+    display: block;
     margin-top: 40px;
     margin-bottom: 40px;
     margin-left: auto;
     margin-right: auto;
-    padding: 5px 10px;
+    padding: 10px 15px;
     background-color: rgba(219, 219, 219, 0.8);
     border-radius: 15px;
     min-width: 100%;
