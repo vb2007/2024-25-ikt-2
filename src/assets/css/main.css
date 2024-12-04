@@ -36,6 +36,8 @@ main {
 }
 
 .preview--paragraph {
+    text-align: justify;
+    padding: 0 2%;
     font-size: 1rem;
 }
 
