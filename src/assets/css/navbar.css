@@ -77,8 +77,7 @@ nav {
 }
 
 .nav--toggler-icon {
-    width: 30px;
-    height: auto;
+    font-size: 1.5rem
 }
 
 @media screen and (max-width: 768px) {
