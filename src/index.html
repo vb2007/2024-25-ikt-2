@@ -10,22 +10,67 @@
     <!-- 3rd party imports -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Local imports -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <!-- Title -->
     <title>Téli ünnepek</title>
 </head>
 <body>
     <!-- Header (navbar) -->
     <header>
-        <nav></nav>
+        <nav>
+            <div class="nav--box">
+              <a class="nav--title" href="">Téli ünnepek</a>
+              <button class="nav--toggler">
+                <img
+                  :src="navbarDrodownLight"
+                  alt="Navbar dropdown menu toggler"
+                  class="nav--toggler-icon"
+                />
+              </button>
+              <div class="nav--collapse">
+                <ul class="nav--list">
+                  <li id="nav--home" class="nav--item">
+                    <a href="/" class="nav--link">Főoldal</a>
+                  </li>
+                  <li class="nav--item">
+                    <a href="/" class="nav--link">Oldal1</a>
+                  </li>
+                  <li class="nav--item">
+                    <a href="/" class="nav--link">Oldal2</a>
+                  </li>
+                  <li class="nav--item">
+                    <a href="/" class="nav--link">Oldal3</a>
+                  </li>
+                  <li class="nav--item">
+                    <a href="/" class="nav--link">Oldal4</a>
+                  </li>
+                </ul>
+                <ul class="nav--list">
+                    <li class="nav--item nav--item-button">
+                        <a href="/" class="nav--link nav--button">Hóesés</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <!-- Main content -->
     <main>
-        
+        <div class="title">
+            <h1>Ünnepek</h1>
+        </div>
+        <article class="main--content">
+            <p></p>
+            <img src="" alt="">
+        </article>
     </main>
     <!-- Footer -->
     <footer>
-
+      <div class="footer--box">
+        <p>2024 - Gerencsér Norbert, Kiss Barnabás, Vágvölgyi Balázs</p>
+      </div>
     </footer>
     <!-- Script improts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
