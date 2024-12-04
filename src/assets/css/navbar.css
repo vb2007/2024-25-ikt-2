@@ -73,9 +73,47 @@ nav {
     background: transparent;
     border: none;
     cursor: pointer;
+    display: none;
 }
 
 .nav--toggler-icon {
     width: 30px;
     height: auto;
+}
+
+@media screen and (max-width: 768px) {
+    .nav--box {
+        flex-wrap: wrap;
+    }
+
+    .nav--toggler {
+        display: block;
+    }
+
+    .nav--collapse {
+        display: none;
+        width: 100%;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav--collapse.show {
+        display: flex;
+    }
+
+    .nav--list {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .nav--item {
+        margin-right: 0;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+
+    .nav--link {
+        display: block;
+        padding: 10px 0;
+    }
 }

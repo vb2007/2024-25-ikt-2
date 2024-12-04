@@ -23,11 +23,7 @@
             <div class="nav--box">
               <a class="nav--title" href="">Téli ünnepek</a>
               <button class="nav--toggler">
-                <img
-                  :src="navbarDrodownLight"
-                  alt="Navbar dropdown menu toggler"
-                  class="nav--toggler-icon"
-                />
+                <span style="font-size: 1.5rem">☰</span>
               </button>
               <div class="nav--collapse">
                 <ul class="nav--list">
@@ -75,5 +71,10 @@
     </footer>
     <!-- Script improts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <script>
+        document.querySelector('.nav--toggler').addEventListener('click', function() {
+            document.querySelector('.nav--collapse').classList.toggle('show');
+        });
+    </script>
 </body>
 </html>
