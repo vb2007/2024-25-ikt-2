@@ -4,7 +4,7 @@ nav {
     background-color: rgba(219, 219, 219, 0.8);
     box-shadow: 0 2px 10px rgb(253, 251, 251);
     z-index: 1000;
-    margin: 0 220px;
+    margin: 0 12%;
     /* for round bottom corners */
     border-radius: 0 0 15px 15px;
 }
