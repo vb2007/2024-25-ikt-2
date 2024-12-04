@@ -10,17 +10,55 @@
     <!-- 3rd party imports -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <!-- Local imports -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/navbar.css">
+    <link rel="stylesheet" href="./assets/css/footer.css">
     <!-- Title -->
     <title>Téli ünnepek</title>
 </head>
 <body>
     <!-- Header (navbar) -->
     <header>
-        <nav></nav>
+        <nav>
+            <div class="nav--box">
+              <a class="nav--title" href="">Téli ünnepek</a>
+              <button class="nav--toggler">
+                <img
+                  :src="navbarDrodownLight"
+                  alt="Navbar dropdown menu toggler"
+                  class="nav--toggler-icon"
+                />
+              </button>
+              <div class="nav--collapse">
+                <ul class="nav--list">
+                  <li id="nav--home" class="nav--item">
+                    <a href="/" class="nav--link">Főoldal</a>
+                  </li>
+                  <li class="nav--item">
+                    <a href="/" class="nav--link">Oldal1</a>
+                  </li>
+                  <li class="nav--item">
+                    <a href="/" class="nav--link">Oldal2</a>
+                  </li>
+                  <li class="nav--item">
+                    <a href="/" class="nav--link">Oldal3</a>
+                  </li>
+                  <li class="nav--item">
+                    <a href="/" class="nav--link">Oldal4</a>
+                  </li>
+                </ul>
+                <ul class="nav--list">
+                    <li class="nav--item nav--item-button">
+                        <a href="/" class="nav--link nav--button">Hóesés</a>
+                    </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
     </header>
     <!-- Main content -->
     <main>
+<<<<<<< HEAD
         A legmenőbb ajándék
 Már napok óta csak arra vártam, hogy végre kibonthassam az új gamer fejhallgatómat, amit a szüleimtől kértem karácsonyra. Tudtam, hogy anya és apa biztosan örülni fognak annak, milyen boldog leszek vele. Karácsony reggelén még az ágyból is hallottam, ahogy a többiek izgatottan nyitogatják az ajándékokat. Amikor végre én következtem, alig bírtam magammal. Egy hatalmas, színes csomag volt előttem, pont olyan, amilyet a legújabb játékokhoz szoktak adni.
 Gyorsan letéptem a csomagolópapírt, és ott volt! A fejhallgató még szebb volt élőben, mint a képeken. A puha fülpárnák és a neonfények azonnal elbűvöltek. Gyorsan feltettem, és bekapcsoltam a számítógépemet. A zene olyan volt, mintha egy koncerten lettem volna. Egész nap játszottam és zenét hallgattam, közben pedig arra gondoltam, hogy ez életem eddigi legjobb karácsonya. De aztán este, amikor lefeküdtem, eszembe jutott, hogy anya és apa egész évben keményen dolgoztak azért, hogy ilyen ajándékokat adhassanak nekünk. Egy kicsit szégyelltem magam, amiért csak a saját boldogságommal foglalkoztam, ezért másnap reggel készítettem nekik egy kis reggelit, és megköszöntem nekik mindent.
@@ -93,10 +131,21 @@ Tippek:
     Puhaság: Ahhoz, hogy a mézeskalács puha maradjon, tárold légmentesen zárható dobozban.
     Díszítés: A díszítésnek csak a képzeleted szabhat határt! Használhatsz színes cukormázat, csokoládét, gyöngyöket vagy ehető ezüst- és aranydíszeket is.
 
+=======
+        <div class="title">
+            <h1>Ünnepek</h1>
+        </div>
+        <article class="main--content">
+            <p></p>
+            <img src="" alt="">
+        </article>
+>>>>>>> main
     </main>
     <!-- Footer -->
     <footer>
-
+      <div class="footer--box">
+        <p>2024 - Gerencsér Norbert, Kiss Barnabás, Vágvölgyi Balázs</p>
+      </div>
     </footer>
     <!-- Script improts -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
