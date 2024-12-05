@@ -71,13 +71,34 @@ main {
     border-radius: 15px;
 }
 
-.welcome--container h3 {
-    text-align: center;
-    color: blue;
+.whitebox {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: rgba(219, 219, 219, 0.8);
+    border-radius: 15px;
+    padding: 5px;
+    margin: 2% 4%;
+    min-height: 120px;
 }
 
-.welcome--container h3 {
-    padding: 12%;
-    text-align: justify;
-    font-size: 14px;
+.whitebox h3 {
+    text-align: center;
+    color: blue;
+    font-size: 28px;
+}
+
+.whitebox p {
+    text-align: center;
+    margin-top: 4px;
+    font-size: 16px;
+}
+
+.card--container {
+    margin-top: 300px;
+}
+
+.card--container {
+    margin-top: 30px;
 }
