@@ -51,22 +51,12 @@ main {
 
 .welcome--container {
     display: block;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
     background-color: rgba(219, 219, 219, 0.8);
     border-radius: 15px;
     padding: 10px 15px;
     min-width: 100%;
-}
-
-.welcome--container {
-    display: block;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgba(219, 219, 219, 0.8);
-    border-radius: 15px;
 }
 
 .whitebox {
