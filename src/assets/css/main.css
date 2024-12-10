@@ -30,7 +30,7 @@ main {
 
 .title h1 {
     text-align: center;
-    color: black;
+    color: rgb(12, 65, 240);;
     font-family: Poppins, sans-serif;
 }
 
@@ -70,7 +70,16 @@ main {
     border-radius: 15px;
     padding: 5px;
     margin: 2% 4%;
-    min-height: 135px;
+    height: 145px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.whitebox:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
 
 .whitebox.scaled {
@@ -82,9 +91,14 @@ main {
 }
 
 .whitebox.baseMotion {
-    transition: transform 0.23s;
+    transition: transform 0.4s, background-color 0.4s;
     &:hover {
-      transform: scale(1.05);
+        transform: scale(1.05);
+        background-color: rgba(9, 183, 252, 0.555);
+        transition: transform 0.4s, background-color 0.4s;
+        h3, p {
+            color: white;
+        }
     }
 }
 
@@ -94,6 +108,7 @@ main {
     text-align: center;
     color: blue;
     font-size: 28px;
+    transition: color 0.4s;
 }
 
 .whitebox p {
@@ -103,6 +118,7 @@ main {
     padding-right: 2px;
     margin-top: 4px;
     font-size: 16px;
+    transition: color 0.4s;
 }
 
 .card--container {
