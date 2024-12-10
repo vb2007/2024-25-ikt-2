@@ -6,6 +6,7 @@ nav {
     border-radius: 0 0 15px 15px;
     z-index: 1000;
     margin: 0 12%;
+    font-family: Inter, sans-serif;
 }
 
 .nav--box {
@@ -49,6 +50,12 @@ nav {
     font-size: 1rem;
 }
 
+.nav--link:hover {
+    color: #007bff;
+    font-weight: 400;
+    text-decoration: dotted;
+}
+
 .nav--buttons {
     display: flex;
     gap: 10px;
@@ -58,6 +65,9 @@ nav {
 .nav--button {
     background-color: #007bff;
     color: white;
+    border-color: #ffffff00;
+    border-style: solid;
+    border-width: 2px;
     padding: 10px 15px;
     border: none;
     border-radius: 25px;
@@ -68,6 +78,7 @@ nav {
 
 .nav--button--disabled {
     background-color: #ffffff;
+    color: black;
     border-color: #007bff;
     border-style: solid;
     border-width: 2px;
@@ -79,7 +90,15 @@ nav {
 }
 
 .nav--button:hover {
+    color: white;
     background-color: #0056b3;
+    cursor: crosshair;
+}
+
+.nav--button--disabled:hover {
+    color: black;
+    background-color: #b4b4b4;
+    cursor: crosshair;
 }
 
 .nav--toggler {
