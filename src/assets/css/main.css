@@ -31,12 +31,14 @@ main {
 .title h1 {
     text-align: center;
     color: black;
+    font-family: Poppins, sans-serif;
 }
 
 .preview--paragraph {
     text-align: justify;
     padding: 0 2%;
     font-size: 1rem;
+    font-family: Parkinsans, sans-serif;
 }
 
 .preview--line {
@@ -68,17 +70,22 @@ main {
     border-radius: 15px;
     padding: 5px;
     margin: 2% 4%;
-    min-height: 120px;
+    min-height: 135px;
 }
 
 .whitebox h3 {
+    padding-top: 5px;
+    font-family: Poppins, sans-serif;
     text-align: center;
     color: blue;
     font-size: 28px;
 }
 
 .whitebox p {
+    font-family: Parkinsans, sans-serif;
     text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
     margin-top: 4px;
     font-size: 16px;
 }
