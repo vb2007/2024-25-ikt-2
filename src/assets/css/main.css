@@ -73,6 +73,21 @@ main {
     min-height: 135px;
 }
 
+.whitebox.scaled {
+    position: relative;
+    z-index: 999; 
+    &.scaledBack {
+      z-index: 0;
+    }
+}
+
+.whitebox.baseMotion {
+    transition: transform 0.23s;
+    &:hover {
+      transform: scale(1.05);
+    }
+}
+
 .whitebox h3 {
     padding-top: 5px;
     font-family: Poppins, sans-serif;
