@@ -70,12 +70,15 @@ img {
 }
 
 .content--container {
+    margin-left: 0px;
+    margin-right: 0px;
     margin-top: 10px;
     margin-bottom: 10px;
     background-color: rgba(219, 219, 219, 0.8);
     border-radius: 15px;
     padding: 10px 15px;
     font-family: Parkinsans, sans-serif;
+    min-width: 100%;
 }
 
 .whitebox {
