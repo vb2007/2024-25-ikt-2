@@ -6,6 +6,7 @@ nav {
     border-radius: 0 0 15px 15px;
     z-index: 1000;
     margin: 0 12%;
+    font-family: Inter, sans-serif;
 }
 
 .nav--box {
@@ -21,6 +22,12 @@ nav {
     font-weight: bold;
     text-decoration: none;
     color: #333;
+    transition: 0.3s;
+}
+
+.nav--title:hover {
+    color: #0056b3;
+    transition: 0.3s;
 }
 
 .nav--collapse {
@@ -47,6 +54,14 @@ nav {
     text-decoration: none;
     color: #333;
     font-size: 1rem;
+    transition: 0.3s;
+}
+
+.nav--link:hover {
+    color: #007bff;
+    font-weight: 400;
+    text-decoration: dotted;
+    transition: 0.3s;
 }
 
 .nav--buttons {
@@ -58,6 +73,9 @@ nav {
 .nav--button {
     background-color: #007bff;
     color: white;
+    border-color: #ffffff00;
+    border-style: solid;
+    border-width: 2px;
     padding: 10px 15px;
     border: none;
     border-radius: 25px;
@@ -68,6 +86,7 @@ nav {
 
 .nav--button--disabled {
     background-color: #ffffff;
+    color: black;
     border-color: #007bff;
     border-style: solid;
     border-width: 2px;
@@ -79,7 +98,17 @@ nav {
 }
 
 .nav--button:hover {
+    color: white;
     background-color: #0056b3;
+    cursor: crosshair;
+    transition: 0.3s;
+}
+
+.nav--button--disabled:hover {
+    color: black;
+    background-color: #b4b4b4;
+    cursor: crosshair;
+    transition: 0.3s;
 }
 
 .nav--toggler {
@@ -93,7 +122,7 @@ nav {
     font-size: 1.5rem
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 852px) {
     .nav--box {
         flex-wrap: wrap;
     }

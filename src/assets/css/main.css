@@ -30,13 +30,15 @@ main {
 
 .title h1 {
     text-align: center;
-    color: black;
+    color: rgb(12, 65, 240);;
+    font-family: Poppins, sans-serif;
 }
 
 .preview--paragraph {
     text-align: justify;
     padding: 0 2%;
     font-size: 1rem;
+    font-family: Parkinsans, sans-serif;
 }
 
 .preview--line {
@@ -51,22 +53,12 @@ main {
 
 .welcome--container {
     display: block;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    margin-left: auto;
-    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 5px;
     background-color: rgba(219, 219, 219, 0.8);
     border-radius: 15px;
     padding: 10px 15px;
     min-width: 100%;
-}
-
-.welcome--container {
-    display: block;
-    margin: 20px;
-    padding: 10px;
-    background-color: rgba(219, 219, 219, 0.8);
-    border-radius: 15px;
 }
 
 .whitebox {
@@ -78,19 +70,55 @@ main {
     border-radius: 15px;
     padding: 5px;
     margin: 2% 4%;
-    min-height: 120px;
+    height: 145px;
+    display: block;
+    text-decoration: none;
+    color: inherit;
+}
+
+.whitebox:hover {
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+
+.whitebox.scaled {
+    position: relative;
+    z-index: 999; 
+    &.scaledBack {
+      z-index: 0;
+    }
+}
+
+.whitebox.baseMotion {
+    transition: transform 0.4s, background-color 0.4s;
+    &:hover {
+        transform: scale(1.05);
+        background-color: rgba(9, 183, 252, 0.555);
+        transition: transform 0.4s, background-color 0.4s;
+        h3, p {
+            color: white;
+        }
+    }
 }
 
 .whitebox h3 {
+    padding-top: 5px;
+    font-family: Poppins, sans-serif;
     text-align: center;
     color: blue;
     font-size: 28px;
+    transition: color 0.4s;
 }
 
 .whitebox p {
+    font-family: Parkinsans, sans-serif;
     text-align: center;
+    padding-left: 2px;
+    padding-right: 2px;
     margin-top: 4px;
     font-size: 16px;
+    transition: color 0.4s;
 }
 
 .card--container {
